@@ -1,0 +1,76 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    width: 1200px;
+    height: 1200px;
+    background-color: black;
+    transform: rotate(45deg);
+
+    position: relative;
+    top: -600px;
+}
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.linea-roja{
+    border: rgb(236, 29, 35) 20px solid;
+    width: 1100px;
+    height: 1100px;
+}
+
+.sublinea{
+    border: rgba(0, 0, 0, 0) 20px solid;
+    width: 1000px;
+    height: 1000px;
+    border-right-color: rgb(236, 29, 35);
+}
+
+.fondo-cabecera{
+    width: 1200px;
+    height: 1200px;
+    background-image: url("https://i1.wp.com/thelocalstretch.com/wp-content/uploads/2017/07/IMG_4383-1.jpg");
+    background-size: cover;
+}
+
+.logo-contenedor{
+    width: 150px;
+    height: 150px;
+    left: 100px;
+    top: 0px;
+    position: absolute;
+    z-index: 100;
+
+    font-family: Tahoma, sans-serif;
+    color: white;
+    background-color: rgb(236, 29, 35);
+}
+.cuadro-2{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -10px;
+
+    background-color: rgb(236, 29, 35);
+    transform: rotate(45deg) scale(0.7);
+}
+
+.cuadro-1{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -10px;
+
+    background-color: rgb(236, 29, 35);
+    transform: rotate(45deg) scale(0.7);
+}
